@@ -1,9 +1,9 @@
 project:
   machine_name: d8-blt
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: D8B
+  human_name: 'D8 BLT Template'
   profile:
-    name: lightning
+    name: minimal
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
