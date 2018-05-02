@@ -34,3 +34,6 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+phpunit:
+  - path: '${docroot}/modules/contrib/examples/testing_example/tests/src/Kernel'
+    config: '${docroot}/core/phpunit.xml.dist'
