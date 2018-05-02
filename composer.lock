@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "726bdc733c20a5365684d3de1be50a8d",
+    "content-hash": "01446f76f4cbf5bc2751f6c0381da5f9",
     "packages": [
         {
             "name": "acquia/blt",
@@ -10439,6 +10439,36 @@
             "time": "2017-04-25T02:31:25+00:00"
         },
         {
+            "name": "yusufhm/demo_rest_api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yusufhm/drupal-demo-rest-api.git",
+                "reference": "97f0585a5c113c7063d69b3ac5bfba38962e0189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yusufhm/drupal-demo-rest-api/zipball/97f0585a5c113c7063d69b3ac5bfba38962e0189",
+                "reference": "97f0585a5c113c7063d69b3ac5bfba38962e0189",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "license": [
+                "UNLICENSED"
+            ],
+            "description": "Defines a custom REST Resource.",
+            "homepage": "https://github.com/yusufhm/drupal-demo-rest-api",
+            "keywords": [
+                "Drupal",
+                "REST"
+            ],
+            "support": {
+                "source": "https://github.com/yusufhm/drupal-demo-rest-api/tree/master",
+                "issues": "https://github.com/yusufhm/drupal-demo-rest-api/issues"
+            },
+            "time": "2018-05-02T02:01:03+00:00"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "1.7.1",
             "source": {
@@ -12311,6 +12341,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "yusufhm/demo_rest_api": 20,
         "sensiolabs-de/deprecation-detector": 20
     },
     "prefer-stable": true,

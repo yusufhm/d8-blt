@@ -1,0 +1,20 @@
+uuid: 5bb08bb1-a165-40b3-b21d-42b6ae88f743
+langcode: en
+status: true
+dependencies:
+  module:
+    - demo_rest_api
+    - serialization
+    - user
+_core:
+  default_config_hash: RMDMgl_fZ9LvQKZkxPgoV9hV5sSfujlF274GLHJIxv0
+id: demo_resource
+plugin_id: demo_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
